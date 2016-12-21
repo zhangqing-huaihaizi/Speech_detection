@@ -1,0 +1,7 @@
+1、介绍：
+   使用了SVM的方法对样本进行分类，在训练的时候，优化了参数C和gamma。
+2、如何运行：
+   predY= speakingRecognition(xTesting)
+   输入MxN的xTesting数据，调用speakingRecognition模块即可得到预测结果（要把model放在当前文件夹下）。
+   M：测试样本数
+   N：特征空间的维数
